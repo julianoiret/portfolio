@@ -56,7 +56,7 @@
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
 
   #contact h1 {
     font-size: 30px;

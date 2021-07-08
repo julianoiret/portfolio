@@ -60,7 +60,7 @@
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
 
   #skills h1 {
     font-size: 30px;
@@ -96,7 +96,7 @@
 }
 }
 
-@media(max-width: 1280px) and (min-width: 542px) /* ipad & ipad pro */ {
+@media(max-width: 768px) and (min-width: 481px) /* ipad & ipad pro */ {
   .box-skills {
     width: 90%;
   }
