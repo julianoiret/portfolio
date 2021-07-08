@@ -131,7 +131,7 @@
   }
 }
 
-@media(max-width: 768px) and (min-width: 481px) /* ipad & ipad pro */ {
+@media(max-width: 1000px) and (min-width: 481px) /* ipad & ipad pro */ {
 
   #education .box-education {
     width: 80%;
