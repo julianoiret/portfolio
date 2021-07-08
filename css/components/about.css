@@ -1,0 +1,58 @@
+#about {
+  overflow: hidden;
+}
+
+#about h1 {
+  background-color: #b98b73;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 50px;
+  color: #FAFAFA;
+  padding: 20px 0 20px 30px;
+}
+
+#about p {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 2.3;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+#about a {
+  color:  #000000;
+  padding: 0;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+#about a:hover {
+  color:  #000000;
+  font-weight: bold;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+  #about h1 {
+    font-size: 30px;
+  }
+
+  #about p {
+    font-size: 20px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+  }
+}
+
+
+@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+
+  #about p {
+    font-size: 22px;
+  }
+}

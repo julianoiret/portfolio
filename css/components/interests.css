@@ -1,0 +1,93 @@
+#interests {
+  overflow: hidden;
+}
+
+#interests h1 {
+  background-color: #b7b7a4;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 50px;
+  color: #FAFAFA;
+  padding: 20px 0 20px 30px;
+}
+
+#interests .box-interests {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 60%;
+  margin: 50px auto 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#interests .box-interests .interest .title-interest {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#interests .box-interests .interest .logo-interest {
+  width: 80px;
+}
+
+#interests .box-interests .interest .logo-crafting {
+  width: 70px;
+}
+
+.responsive-interest {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+
+  #interests h1 {
+    font-size: 30px;
+  }
+
+  #interests .box-interests {
+    width: 90%;
+  }
+
+    #interests .box-interests .interest .logo-interest {
+    width: 50px;
+  }
+
+  #interests .box-interests .interest .logo-crafting {
+    width: 45px;
+  }
+
+  .non-responsive-interest {
+    display: none;
+  }
+
+  .responsive-interest {
+    display: flex;
+  }
+
+  #interests .box-interests .interest {
+  padding-right: 15px;
+  text-align: center;
+}
+}
+
+
+@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+
+  #interests .box-interests {
+    width: 87%;
+  }
+}
+
+@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+
+  #interests .box-interests {
+    width: 70%;
+    padding: 20px;
+  }
+}

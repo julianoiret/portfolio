@@ -1,0 +1,543 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Hi, I'm Julia, I create and I code">
+    <meta name="keywords" content="portfolio, web, design, full stack developer">
+    <meta name="author" content="Julia Hanard Noiret">
+    <meta property="og:title" content="">  <!-- TO DO meta tag -->
+    <meta property="og:description" content=""> <!-- TO DO meta tag -->
+    <meta property="og:image" content=""> <!-- TO DO meta tag -->
+    <meta property="og:url" content=""> <!-- TO DO meta tag -->
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" type="image/jpg" href="./img/pink-rocket.jpg"/> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!-- CSS -->
+    <link href='css/style.css' rel='stylesheet'>
+  </head>
+
+
+<body>
+
+  <!-- SIDEBAR / MENU -->
+  <nav>
+    <div class="presentation">
+      <h1>Julia </br>
+      Noiret</h1>
+      <p>Full Stack Developer</p>
+      <img src="./img/julia-noiret.png" alt="Julia Noiret - Full Stack Developer" class="avatar">
+    </div>
+
+    <div id="menu">
+      <div class="sidebar sidebar-1">
+        <i class="fas fa-user icon-menu fa-2x" id="icon-1"></i>
+        <a href="#about" class="active">About</a>
+      </div>
+
+      <div class="sidebar sidebar-2">
+        <i class="fas fa-rocket icon-menu fa-2x" id="icon-2"></i>
+        <a href="#projects">Projects</a>
+      </div>
+
+      <div class="sidebar sidebar-3">
+        <i class="fas fa-chart-bar icon-menu fa-2x" id="icon-3"></i>
+        <a href="#skills" class="active">Skills</a>
+      </div>
+
+      <div class="sidebar sidebar-4">
+        <i class="fas fa-graduation-cap icon-menu fa-2x" id="icon-4"></i>
+        <a href="#education">Education</a>
+      </div>
+
+      <div class="sidebar sidebar-5">
+        <i class="fas fa-suitcase icon-menu fa-2x" id="icon-5"></i>
+        <a href="#experience">Experience</a>
+      </div>
+
+      <div class="sidebar sidebar-6">
+        <i class="fas fa-cut icon-menu fa-2x" id="icon-6"></i>
+        <a href="#interests">Interests</a>
+      </div>
+
+      <div class="sidebar sidebar-7">
+        <i class="fas fa-envelope icon-menu fa-2x" id="icon-7"></i>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="sidebar sidebar-8">
+        <i class="fas fa-file icon-menu fa-2x" id="icon-8"></i>
+        <a href="./img/julia_noiret_resume.pdf" download target="_blank">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- RESPONSIVE NAVBAR -->
+  <div class="responsive-nav">
+    <button class="responsive-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fas fa-bars"></i></button>
+    <div class="middle">
+      <h1>Julia Noiret</h1>
+      <h2>Full Stack Web Developer</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          <div id="menu">
+            <div class="sidebar sidebar-1">
+              <i class="fas fa-user icon-menu fa-2x" id="icon-1"></i>
+              <a href="#about" class="active">About</a>
+            </div>
+            <div class="sidebar sidebar-2">
+              <i class="fas fa-rocket icon-menu fa-2x" id="icon-2"></i>
+              <a href="#projects">Projects</a>
+             </div>
+            <div class="sidebar sidebar-3">
+              <i class="fas fa-chart-bar icon-menu fa-2x" id="icon-3"></i>
+              <a href="#skills" class="active">Skills</a>
+            </div>
+            <div class="sidebar sidebar-4">
+              <i class="fas fa-graduation-cap icon-menu fa-2x" id="icon-4"></i>
+              <a href="#education">Education</a>
+            </div>
+            <div class="sidebar sidebar-5">
+              <i class="fas fa-suitcase icon-menu fa-2x" id="icon-5"></i>
+              <a href="#experience">Experience</a>
+            </div>
+            <div class="sidebar sidebar-6">
+              <i class="fas fa-cut icon-menu fa-2x" id="icon-6"></i>
+              <a href="#interests">Interests</a>
+            </div>
+            <div class="sidebar sidebar-7">
+              <i class="fas fa-envelope icon-menu fa-2x" id="icon-7"></i>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="sidebar sidebar-8">
+              <i class="fas fa-file icon-menu fa-2x" id="icon-8"></i>
+              <a href="./img/julia_noiret_resume.pdf" download target="_blank">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BANNER -->
+  <div class="container-right">
+
+    <div id="banner">
+      <h1>Hi, I'm <span class="background">Julia</span>, I create<br>
+        && <span class="soulign">I code</span></h1>
+    </div>
+
+
+  <!-- ABOUT -->
+  <div id="about">
+    <h1>About</h1>
+    <p>I'm a passionate Full Stack Developer with a creative mindset who has
+      just completed <a href="https://www.lewagon.com/" target="_blank"><nobr>Le Wagon</nobr></a> web development bootcamp, ranked by students best
+      bootcamp in the world.</br>
+      From my background in hospitality, sales and customer
+      relationship, I developed a customer focused mindset, essential to design websites
+      tailored for my clients and users.  I've always had an interest for design, on my
+      free time I love crafting and journaling.</br>
+      In my work I'm particularly conscious of the user interface and experience.</p>
+  </div>
+
+
+  <!-- PROJECTS -->
+  <div id="projects">
+    <h1>Projects</h1>
+
+    <div id="boxes" class="row">
+      <div class="col-md-4 card box">
+        <img src="./img/website-4.png">
+        <h2>Mountain Map</h2>
+        <hr>
+        <p>Designed, implemented and shipped to production a Rails prototype of a web application in team of 4 people in 2 weeks.</p>
+        <button class="read-more-button btn-green-2" role="button">Read more <i class="fas fa-long-arrow-alt-right"></i></button>
+      </div>
+      <div class="col-md-4 card box box-4 hidden">
+        <h2 class="accomplishments">Accomplishments</h2>
+        <i class="fas fa-times close-button"></i>
+        <p class="check"><i class="fas fa-check"></i> Ruby on Rails backend</p>
+        <p class="check"><i class="fas fa-check"></i> Front-end development in Bootstrap</p>
+        <p class="check"><i class="fas fa-check"></i> User authentication via Devise</p>
+        <p class="check"><i class="fas fa-check"></i> Mapbox API</p>
+        <p class="check"><i class="fas fa-check"></i> Image upload with Cloudinary</p>
+        <p class="check"><i class="fas fa-check"></i> AJAX query of Rails JSON</p>
+        <p><i class="note">Note: not responsive yet</i></p>
+        <hr class="bottom-line">
+        <div class="icons-link">
+          <a href="https://www.mountain-maps.com/mountains" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <a href="https://github.com/andycalder/mountain-maps" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://youtu.be/Iajr2kyNPQ0?t=483" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 card box">
+        <img src="./img/responsive-template1.png">
+        <h2>Template 1</h2>
+        <hr>
+        <p>Designed a website template.</p>
+        <button class="read-more-button btn-green-2" role="button">Read more <i class="fas fa-long-arrow-alt-right"></i></button>
+      </div>
+      <div class="col-md-4 card box hidden">
+        <h2 class="accomplishments">Accomplishments</h2>
+        <i class="fas fa-times close-button"></i>
+        <p><i class="before">Before bootcamp</i></p>
+        <p class="check"><i class="fas fa-check"></i> Front-end development in Bootstrap</p>
+        <p class="check"><i class="fas fa-check"></i> Responsive web design</p>
+        <hr class="bottom-line">
+        <div class="icons-link">
+          <a href="https://julianoiret.github.io/website-template-2/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <a href="https://github.com/julianoiret/website-template-2" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 card box">
+        <img src="./img/responsive-template2.png">
+        <h2>Template 2</h2>
+        <hr>
+        <p>Designed a website template.</p>
+        <button class="read-more-button btn-green-2" role="button">Read more <i class="fas fa-long-arrow-alt-right"></i></button>
+      </div>
+      <div class="col-md-4 card box hidden">
+        <h2 class="accomplishments">Accomplishments</h2>
+        <i class="fas fa-times close-button"></i>
+        <p><i class="before">Before bootcamp</i></p>
+        <p class="check"><i class="fas fa-check"></i> Front-end development in Bootstrap</p>
+        <p class="check"><i class="fas fa-check"></i> Responsive web design</p>
+        <hr class="bottom-line">
+        <div class="icons-link">
+          <a href="https://julianoiret.github.io/template-3/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <a href="https://github.com/julianoiret/template-3" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4 card box">
+        <img src="./img/website-3.png">
+        <h2>Baguette Dash</h2>
+        <hr>
+        <p>Designed, implemented and shipped to production a clone of Airbnb in team of 4 people in 5 days.</p>
+        <button class="read-more-button btn-green-2" role="button">Read more <i class="fas fa-long-arrow-alt-right"></i></button>
+      </div>
+      <div class="col-md-4 card box hidden">
+        <h2 class="accomplishments">Accomplishments</h2>
+        <i class="fas fa-times close-button"></i>
+        <p class="check"><i class="fas fa-check"></i> Ruby on Rails backend</p>
+        <p class="check"><i class="fas fa-check"></i> Front-end development in Bootstrap</p>
+        <p class="check"><i class="fas fa-check"></i> User authentication via Devise</p>
+        <p class="check"><i class="fas fa-check"></i> Image upload with Cloudinary</p>
+        <!-- <p class="check"><i class="fas fa-check"></i> AJAX query of Rails JSON</p> -->
+        <hr class="bottom-line">
+        <div class="icons-link">
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills">
+    <h1>Skills</h1>
+    <div class="box-skills">
+      <h2>Front-end</h2>
+      <hr>
+      <div class="flex-skills">
+        <div class="container-skills">
+          <img class="size1" src="./img/html.png">
+          <p>HTML5</p>
+        </div>
+        <div class="container-skills">
+          <img class="size1" src="./img/css.png">
+          <p>CSS3</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2" src="./img/js.png">
+          <p>JavaScript</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2" src="./img/bootstrap.png">
+          <p>Bootstrap</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-skills">
+      <h2>Back-end</h2>
+      <hr>
+      <div class="flex-skills flex-start">
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/ruby.png">
+          <p>Ruby</p>
+        </div>
+        <div class="container-skills">
+          <img class="size1 flex1" src="./img/rails.png">
+          <p>Ruby on Rails</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-skills">
+      <h2>Other</h2>
+      <hr>
+      <div class="flex-skills">
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/git.png">
+          <p>Git</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/github.png">
+          <p>Github</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/heroku.png">
+          <p>Heroku</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/figma.png">
+          <p>Figma</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-skills">
+      <h2>Current focus</h2>
+      <hr>
+      <div class="flex-skills flex-start">
+        <div class="container-skills">
+          <img class="size3 flex1" src="./img/uiux.png">
+          <p>UX UI Design</p>
+        </div>
+        <div class="container-skills">
+          <img class="size1 flex1" src="./img/react.png">
+          <p>React</p>
+        </div>
+        <div class="container-skills">
+          <img class="size2 flex1" src="./img/sass.png">
+          <p>SASS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ <!-- EDUCATION -->
+ <div id="education">
+  <h1>Education</h1>
+  <div class="card box-education">
+    <div class="box-title-education">
+      <div class="left-part">
+        <img class="logo-education" src="./img/le-wagon.png" alt="Le Wagon logo">
+        <h2>Le Wagon</h2>
+      </div>
+      <a href="https://www.lewagon.com/melbourne" target="_blank"><i class="fas fa-link"></i></a>
+    </div>
+    <hr>
+    <div class="contenu">
+      <h4>Web development | Full-time courses (10 weeks)</h4>
+      <p class="what-is-it">Ranked as the World’s Best Coding Bootcamp for 4 years in a row (on Switchup and Coursereport), Le Wagon is a very product-driven program teaching the core concepts of programming and web development. During the course, I learnt how to build robust and beautiful web applications by myself, collaborate within a team of developers and adopt the technical workflow followed by successful startups.</p>
+      <h5>Curriculum</h5>
+      <ul>
+        <li>Understand the core concepts of object-oriented programming</li>
+        <li>Structure a software following design patterns like MVC</li>
+        <li>Integrate a 3rd party service using an API or scrape HTML data</li>
+        <li>Design a relational database and build queries with SQL</li>
+        <li>Build a UI following atomic design framework</li>
+        <li>Code a CSS library using recent techniques like flexbox or CSS grid</li>
+        <li>ES6 (last version of Javascript) as a second programming language</li>
+        <li>Adopt the right technical workflow: design a wireframe & mockup, test a UX with a prototype, split a user stories across my team and collaborate with branch and pull requests with git and Github</li>
+        <li>Discover TDD (Test Driven Development) and learn how to cover your application's code with unit tests</li>
+      </ul>
+      <h5>Accomplishments</h5>
+      <ul>
+        <li>Designed, implemented and shipped to production a clone of Airbnb in team of 4 people in 5 days</li>
+        <li>Designed, implemented and shipped to production a Rails prototype of a web application</li>
+      </ul>
+    </div>
+    <div class="box-date">
+      <p class="date">April 2021 - June 2021 | Melbourne, Australia</p>
+    </div>
+  </div>
+
+  <div class="card box-education">
+    <div class="box-title-education">
+      <div class="left-part">
+        <img class="logo-education2" src="./img/coursera.png" alt="Logo Coursera and University of Michigan">
+        <h2 class="responsive-education-title">Coursera | University of Michigan</h2>
+      </div>
+      <a href="https://www.coursera.org/specializations/web-design" target="_blank"><i class="fas fa-link"></i></a>
+    </div>
+    <hr>
+    <div class="contenu">
+      <h4>Web Design for Everybody: Basics of Web Development & Coding Specialization</h4>
+      <p class="what-is-it">This Specialization covers how to write syntactically correct HTML5 and CSS3, and how to create interactive web experiences with JavaScript. Mastering this range of technologies I'm now able to develop high quality web sites that, work seamlessly on mobile, tablet, and large screen browsers accessible, and that utilizes tools to create a site that is accessible to a wide audience, including those with visual, audial, physical, and cognitive impairments.</p>
+      <h5>Curriculum</h5>
+      <ul>
+        <li>Add interacitivity to web pages with Javascript</li>
+        <li>Use the Document Object Model to modify pages</li>
+        <li>Describe the basics of Cascading Style Sheets</li>
+        <li>Apply responsive design to enable page to be viewed by various devices</li>
+      </ul>
+      <h5>Accomplishment</h5>
+      <ul>
+        <li>Designed an accessible and responsive website</li>
+      </ul>
+    </div>
+    <div class="box-date">
+      <p class="date">2019 - 2020 | Online, in my free time</p>
+    </div>
+  </div>
+
+  <div class="card box-education">
+    <div class="box-title-education">
+      <div class="left-part">
+        <img class="logo-education" src="./img/iaelille.png" alt="Logo IAE Lille, University School of Management">
+        <h2>IAE Lille</h2>
+      </div>
+      <a href="https://iaelille.fr/" target="_blank"><i class="fas fa-link"></i></a>
+    </div>
+    <hr>
+    <div class="contenu">
+      <h4>University School of Management: Bachelor of Business Administration</h4>
+      <p class="what-is-it">The bachelor LPMO (Business Administration) is designed to develop the skills required for careers in business and management. IAE Lille has been providing a world class education since 1956.</p>
+      <h5>Curriculum</h5>
+      <ul>
+        <li>Leadership</li>
+        <li>Marketing</li>
+        <li>Global Business Economics</li>
+        <li>Financial and Managerial Accounting</li>
+        <li>Business Finance</li>
+        <li>Data Analysis</li>
+        <li>Managing People</li>
+      </ul>
+      <h5>Accomplishment</h5>
+      <ul>
+        <li>Submission of a thesis: How to improve customer loyalty and retention</li>
+        <!-- <li>IN FRENCH: Comment améliorer la fidélisation client par l’intermédiaire du marketing relationnel ?</li> -->
+      </ul>
+    </div>
+    <div class="box-date">
+      <p class="date">Completed in 2014 | Lille, France</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- EXPERIENCE -->
+<div id="experience">
+  <h1>Experience</h1>
+  <div class="row card-principal">
+    <div class="card card-experience" style="width: 45%;">
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted">2017 - 2020</h6>
+        <p class="card-text">🍽 🍸 Various experiences in hospitality as Bartender & Waitress</p>
+        <h6 class="card-subtitle mb-2 text-muted">QLD & TAS (Australia)</h6>
+      </div>
+    </div>
+    <div class="card card-experience" style="width: 45%;">
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted">2015 - 2016</h6>
+        <p class="card-text">🍅 🚜 Various experiences working on farms as Quality Controller, Administration Officer, Grader & Packer</p>
+        <h6 class="card-subtitle mb-2 text-muted">QLD & NT (Australia)</h6>
+      </div>
+    </div>
+    <div class="card card-experience" style="width: 45%;">
+      <div class="card-body">
+        <h5 class="card-title">👥 Relationship Manager | Vivamural</h5>
+        <h6 class="card-subtitle mb-2 text-muted">2013 - 2014</h6>
+        <p class="card-text">Managed the after-sales service - Answered phone request - Assisted customers BtoB and BtoC - Quotations - Benchmarking</p>
+        <h6 class="card-subtitle mb-2 text-muted">Lille (France)</h6>
+      </div>
+    </div>
+    <div class="card card-experience" style="width: 45%;">
+      <div class="card-body">
+        <h5 class="card-title">🗣 Store Supervisor | Yves Rocher</h5>
+        <h6 class="card-subtitle mb-2 text-muted">2012 - 2013</h6>
+        <p class="card-text">Support for opening a new store (creation of merchandising, inventory level) - Managed the store and sales team in store (3 customer advisors) - Advice and sales</p>
+        <h6 class="card-subtitle mb-2 text-muted">Flers-en-Escrebieux (France)</h6>
+      </div>
+    </div>
+    <div class="card card-experience" style="width: 45%;">
+      <div class="card-body">
+        <h5 class="card-title">💄 Sales Team Leader | Yves Rocher</h5>
+        <h6 class="card-subtitle mb-2 text-muted">2011 - 2012</h6>
+        <p class="card-text">Managed sales team in store (7 customer advisors) - Advice and sales - Sales events</p>
+        <h6 class="card-subtitle mb-2 text-muted">Douai (France)</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- INTERESTS -->
+<div id="interests">
+  <h1>Interests</h1>
+  <div class="box-interests">
+    <div class="interest">
+      <img class="logo-interest flex1" src="./img/web-dev.png">
+      <p class="title-interest non-responsive-interest">Web developement</p>
+      <p class="title-interest responsive-interest">Web dev</p>
+    </div>
+    <div class="interest">
+      <img class="logo-interest flex1" src="./img/hiking.png">
+      <p class="title-interest">Hiking</p>
+    </div>
+    <div class="interest">
+      <img class="logo-interest logo-crafting flex1" src="./img/crafting.png">
+      <p class="title-interest">Crafting</p>
+    </div>
+    <div class="interest">
+      <img class="logo-interest flex1" src="./img/travels.png">
+      <p class="title-interest">Travels</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CONTACT -->
+<div id="contact">
+  <h1>Contact</h1>
+  <div class="box-contact">
+    <div class="d-inline-flex contact">
+      <a href="mailto:julia.noiret@gmail.com" target="_blank"><i class="far fa-envelope logo-contact"></i></a>
+      <a href="mailto:julia.noiret@gmail.com" target="_blank" class="title-contact">julia.noiret@gmail.com</a>
+    </div>
+    <div class="d-inline-flex contact">
+      <a href="https://www.linkedin.com/in/julia-noiret-332395ab/" target="_blank"><i class="fab fa-linkedin-in logo-contact"></i></a>
+      <a href="https://www.linkedin.com/in/julia-noiret-332395ab/" target="_blank" class="title-contact">Linkedin Profile</a>
+    </div>
+    <div class="d-inline-flex contact">
+      <a href="https://github.com/julianoiret" target="_blank"><i class="fab fa-github logo-contact"></i></a>
+      <a href="https://github.com/julianoiret" target="_blank" class="title-contact">Github Profile</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

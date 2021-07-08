@@ -1,0 +1,73 @@
+/* Import CSS files by section */
+@import url('components/nav.css');
+@import url('components/banner.css');
+@import url('components/about.css');
+@import url('components/projects.css');
+@import url('components/skills.css');
+@import url('components/education.css');
+@import url('components/experience.css');
+@import url('components/interests.css');
+@import url('components/contact.css');
+
+
+/* GENERAL */
+
+body {
+  background-color: #F7F7F7;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container-right {
+  width: 85%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cover_image_content {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  margin-bottom: 35px;
+  margin-left: 25px;
+}
+
+.detail_content {
+  padding: 20px;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+  .container-right {
+    width: 100%;
+  }
+}
+
+@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+  .container-right {
+    width: 100%;
+  }
+  }
+
+@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+  .container-right {
+    width: 100%;
+  }
+  }

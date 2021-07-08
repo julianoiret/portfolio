@@ -1,0 +1,347 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  overflow-x: hidden;
+  overflow: auto;
+  width: 15%;
+  float: left;
+  background-color: #FCFCFC;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+nav p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.icon-menu {
+  width: 35px;
+}
+
+#icon-1 {
+  color: #b98b73;
+}
+
+.sidebar-1:hover {
+  border-left: 5px solid #b98b73;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-1:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-2 {
+  color: #a5a58d;
+}
+
+.sidebar-2:hover {
+  border-left: 5px solid #a5a58d;
+}
+
+.sidebar-2:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-3 {
+  color: #ddbea9;
+}
+
+.sidebar-3:hover {
+  border-left: 5px solid #ddbea9;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-3:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-4 {
+  color: #6b705c;
+}
+
+.sidebar-4:hover {
+  border-left: 5px solid #6b705c;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-4:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-5 {
+  color: #d4c7b0;
+}
+
+.sidebar-5:hover {
+  border-left: 5px solid #d4c7b0;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-5:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-6 {
+  color: #b7b7a4;
+}
+
+.sidebar-6:hover {
+  border-left: 5px solid #b7b7a4;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-6:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-7 {
+  color: #cb997e;
+}
+
+.sidebar-7:hover {
+  border-left: 5px solid #cb997e;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-7:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+#icon-8 {
+  color: #3f4238;
+}
+
+.sidebar-8:hover {
+  border-left: 5px solid #3f4238;
+  font-weight: bold;
+  color: #000000;
+}
+
+.sidebar-8:hover a {
+  font-weight: bold;
+  color: gray;
+}
+
+.presentation {
+  padding: 20px 20px 20px 30px;
+  border-bottom: 1px solid #dfdcd8;
+  background-color: #FAFAFA;
+}
+
+.presentation p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.avatar {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  background-color: #FCFCFC;
+}
+
+a {
+  padding-left: 30px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.sidebar:hover {
+  background-color: #ebeae8;
+  color: #000000;
+}
+
+.responsive-nav {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+  nav {
+    display: none;
+    width: 100%;
+  }
+
+   .responsive-nav{
+    display: flex;
+    width: 100%;
+    background-color: #FAFAFA;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+   .fa-bars {
+   color: #CB997E;
+   font-size: 40px;
+  }
+
+  .middle {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .middle h1 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .middle h2 {
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .middle h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.responsive-toggler {
+  margin-left: 20px;
+  width: 5%;
+  background-color: #FAFAFA;
+}
+
+button:visited {
+  border: none !important;
+}
+}
+
+
+@media(max-width: 1366px) and (min-width: 542px) /* ipad & ipad pro */ {
+
+  nav {
+    display: none;
+    width: 100%;
+  }
+
+   .responsive-nav{
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    background-color: #FAFAFA;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .responsive-nav h1, .responsive-nav h2 {
+   margin-left: -20px;
+  }
+
+   .fa-bars {
+   color: #CB997E;
+   font-size: 40px;
+  }
+
+  .middle {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .middle h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+
+  .middle h2 {
+    font-size: 17px;
+    font-weight: 100;
+  }
+
+  .middle h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.responsive-toggler {
+  margin-left: 20px;
+  width: 5%;
+  background-color: #FAFAFA;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+#banner {
+  width: 100%;
+  height: 740px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%),
+  url("../../img/background.webp") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#banner h1 {
+  font-weight: 300;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #FAFAFA;
+}
+
+#banner .soulign {
+  /*text-decoration: underline #cb997e;*/
+  border-bottom: 3px solid #cb997e;
+}
+
+#banner .background {
+  background-color: #cb997e;
+  padding: 5px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+  #banner {
+    background-attachment: inherit;
+    height: 350px;
+  }
+}
+
+@media(max-width: 1366px) and (min-width: 542px) /* ipad & ipad pro */ {
+
+  #banner {
+    height: 560px;
+    background-attachment: inherit;
+  }
+}
+
+

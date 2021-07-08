@@ -1,0 +1,237 @@
+#projects {
+  overflow: hidden;
+}
+
+#projects h1 {
+  background-color: #a5a58d;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 50px;
+  color: #FAFAFA;
+  padding: 20px 0 20px 30px;
+}
+
+#boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 30px 30px 30px;
+}
+
+.box {
+  width: 30%;
+  min-height: 515px;
+  margin-bottom: 40px;
+  padding: 0 0 50px 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.box img {
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.box h2 {
+  color: #a5a58d;
+  font-weight: 500;
+  /*text-transform: uppercase;*/
+  padding: 20px 10px 5px 10px;
+}
+
+.box p {
+  padding: 10px 10px 5px 10px;
+}
+
+.box-4 .fa-check, .box-4 p {
+  padding: 0px 0px 3px 0px;
+}
+
+hr {
+  width: 70%;
+  margin-top: -10px;
+}
+
+button {
+  width: 40%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  border: none;
+}
+
+/*.btn-light {
+  background-color: #a5a58d !important;
+  color: #E8E8E8;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.btn-green {
+  color: #a5a58d !important;
+  border: 1px solid #a5a58d !important;
+  border-radius: 5px !important;
+  padding: 7px 15px;
+  font-weight: lighter;
+  opacity: 0.6;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.btn-green-3 {
+  color: #a5a58d !important;
+  border: 1px solid #a5a58d !important;
+  border-radius: 20px !important;
+  padding: 7px 15px;
+  font-weight: lighter;
+  opacity: 0.6;
+  text-decoration: none;
+  background-color: #ffffff;
+}*/
+
+.btn-green-2 {
+  border-radius: 5px !important;
+  opacity: 0.6;
+  font-weight: 300;
+  text-decoration: none;
+  background-color:#a5a58d !important;
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.btn-green-2:hover {
+  color: #a5a58d !important;
+  border: 1px solid #a5a58d !important;
+  border-radius: 5px !important;
+  padding: 7px 15px;
+  font-weight: bold;
+  opacity: 0.6;
+  text-decoration: none;
+  background-color: #ffffff !important;
+}
+
+/*.btn-green-2:hover .fa-mouse-pointer {
+  display: none;
+}
+
+.fa-mouse-pointer {
+  margin-left: 10px;
+}*/
+
+.fa-long-arrow-alt-right {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.btn-green-2:hover .fa-long-arrow-alt-right {
+  display: none;
+}
+
+/* .card-reveal{
+    padding: 20px;
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+    overflow-y: auto;
+    top: 0;
+    left:0;
+    bottom:0;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}*/
+
+.accomplishments {
+  font-weight: 300 !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: none !important;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #a5a58d;
+  cursor: pointer;
+}
+
+.check, .note, .before {
+  padding-left: 15px !important;
+}
+
+.check .fa-check {
+  padding-right: 5px;
+}
+
+.bottom-line {
+  position: absolute;
+  bottom: 85px;
+  width: 100%;
+}
+
+.icons-link {
+   position: absolute;
+   bottom: 25px;
+   left: 0px;
+   display: flex;
+}
+
+.fa-github, .fa-external-link-alt, .fa-youtube {
+  background-color: #a5a58d;
+  width: 55.5px;
+  height: 55.5px;
+  font-size: 25px;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 3px rgba(0,0,0,0.23);
+}
+
+.fa-github:hover, .fa-external-link-alt:hover, .fa-youtube:hover {
+  opacity: .5;
+  /*border: 2px solid #ffffff;*/
+}
+
+.detail_content {
+  padding: 0 !important;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+  #projects h1 {
+    font-size: 30px;
+  }
+
+  .box{
+    width: 100%;
+  }
+}
+
+
+@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+
+  .box{
+    width: 45%;
+  }
+
+    #boxes {
+  justify-content: space-evenly;
+  margin: 70px 20px 30px 20px;
+}
+}
+
+@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+
+  .btn-green-2 {
+    width: 50%;
+  }
+}
