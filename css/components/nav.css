@@ -201,10 +201,9 @@ a {
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
   nav {
     display: none;
-    width: 100%;
   }
 
    .responsive-nav{
