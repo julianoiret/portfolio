@@ -29,14 +29,14 @@
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
   #banner {
     background-attachment: inherit;
     height: 350px;
   }
 }
 
-@media(max-width: 1280px) and (min-width: 542px) /* ipad & ipad pro */ {
+@media(max-width: 768px) and (min-width: 481px) /* ipad & ipad pro */ {
 
   #banner {
     height: 560px;
