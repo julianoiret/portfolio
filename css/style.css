@@ -24,7 +24,7 @@ ul {
 }
 
 .container-right {
-  width: 85%;
+  width: 85% !important;
   float: right;
   display: flex;
   flex-direction: column;
@@ -54,20 +54,20 @@ button {
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
   .container-right {
     width: 100%;
   }
 }
 
-@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+@media(max-width: 768px) and (min-width: 481px) /* ipad */ {
   .container-right {
     width: 100%;
   }
   }
 
-@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+/*@media(max-width: 1366px) and (min-width: 1024px)  {
   .container-right {
     width: 100%;
   }
-  }
+  }*/
