@@ -229,7 +229,7 @@ button {
 }
 }
 
-@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+@media(max-width: 1280px) and (min-width: 1024px) /* ipad pro */ {
 
   .btn-green-2 {
     width: 50%;

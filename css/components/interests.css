@@ -84,7 +84,7 @@
   }
 }
 
-@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+@media(max-width: 1280px) and (min-width: 1024px) /* ipad pro */ {
 
   #interests .box-interests {
     width: 70%;

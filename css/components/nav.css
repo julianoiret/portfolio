@@ -267,7 +267,7 @@ button:visited {
 }
 
 
-@media(max-width: 1366px) and (min-width: 542px) /* ipad & ipad pro */ {
+@media(max-width: 1280px) and (min-width: 542px) /* ipad & ipad pro */ {
 
   nav {
     display: none;

@@ -36,7 +36,7 @@
   }
 }
 
-@media(max-width: 1366px) and (min-width: 542px) /* ipad & ipad pro */ {
+@media(max-width: 1280px) and (min-width: 542px) /* ipad & ipad pro */ {
 
   #banner {
     height: 560px;
