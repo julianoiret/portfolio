@@ -79,64 +79,17 @@
 
 @media(max-width: 1000px) and (min-width: 481px) /* ipad */ {
 
-  /* #interests .box-interests {
-    width: 87%;
-  } */
   #interests .box-interests {
-    width: 90%;
+    width: 87%;
   }
-
-    #interests .box-interests .interest .logo-interest {
-    width: 50px;
-  }
-
-  #interests .box-interests .interest .logo-crafting {
-    width: 45px;
-  }
-
-  .non-responsive-interest {
-    display: none;
-  }
-
-  .responsive-interest {
-    display: flex;
-  }
-
-  #interests .box-interests .interest {
-  padding-right: 15px;
-  text-align: center;
-}
 }
 
-@media(max-width: 1280px) and (min-width: 1024px)  {
+/* @media(max-width: 1280px) and (min-width: 1024px)  {
 
-  /* #interests .box-interests {
+  #interests .box-interests {
     width: 70%;
     padding: 20px;
-  } */
-  #interests .box-interests {
-    width: 90%;
   }
 
-    #interests .box-interests .interest .logo-interest {
-    width: 50px;
-  }
-
-  #interests .box-interests .interest .logo-crafting {
-    width: 45px;
-  }
-
-  .non-responsive-interest {
-    display: none;
-  }
-
-  .responsive-interest {
-    display: flex;
-  }
-
-  #interests .box-interests .interest {
-  padding-right: 15px;
-  text-align: center;
-}
-}
+} */
 
