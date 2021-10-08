@@ -181,7 +181,7 @@ button {
    display: flex;
 }
 
-.fa-github, .fa-external-link-alt, .fa-youtube {
+.fa-github, .fa-external-link-alt, .fa-youtube, .fa-cocktail {
   background-color: #a5a58d;
   width: 55.5px;
   height: 55.5px;
@@ -193,7 +193,7 @@ button {
   box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 3px rgba(0,0,0,0.23);
 }
 
-.fa-github:hover, .fa-external-link-alt:hover, .fa-youtube:hover {
+.fa-github:hover, .fa-external-link-alt:hover, .fa-youtube:hover, .fa-cocktail:hover {
   opacity: .5;
   /*border: 2px solid #ffffff;*/
 }
